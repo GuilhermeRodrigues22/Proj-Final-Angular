@@ -1,0 +1,13 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "name": "Guilherme",
+      "rg": 222222222222,
+      "email": "guilherme4@fatec.sp.gov.br",
+      "telefone": 11987874533,
+      "data": "2004-06-22",
+      "couse": "Análise e Desenvolvimento de Sistemas"
+    }
+  ]
+}

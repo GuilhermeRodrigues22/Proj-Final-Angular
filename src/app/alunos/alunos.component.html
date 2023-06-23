@@ -1,1 +1,30 @@
-<p>alunos works!</p>
+<button class="btn btn-success mt-2 mb-2" (click)="create()">Novo Aluno</button>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Nome</th>
+      <th scope="col">RG</th>
+      <th scope="col">Email</th>
+      <th scope="col">Telefone</th>
+      <th scope="col">Data de Nascimento</th>
+      <th scope="col">Curso</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let dados of alunos">
+      <th scope="row">{{dados.id}}</th>
+      <td>{{dados.name | titlecase}}</td>
+      <td>{{dados.rg}}</td>
+      <td>{{dados.email}}</td>
+      <td>{{dados.telefone}}</td>
+      <td>{{dados.data | date:'dd/MM/yyyy'}}</td>
+      <td>{{dados.curso}}</td>
+      <td></td>
+      <td>
+        <button class="btn btn-primary me-2" (click)="edit(dados)">Editar</button>
+        <button class="btn btn-danger" (click)="delete(dados)">Excluir</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+

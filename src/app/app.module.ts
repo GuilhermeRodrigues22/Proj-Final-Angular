@@ -18,11 +18,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   declarations: [
     AppComponent,
     AlunosComponent,
-    FormAlunosComponent,
     HeaderComponent,
     HomeComponent,
     ProfessoresComponent,
-    FormProfessoresComponent
+    FormProfessoresComponent,
+    FormAlunosComponent
   ],
   imports: [
     BrowserModule,
