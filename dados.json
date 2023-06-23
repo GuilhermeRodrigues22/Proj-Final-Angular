@@ -3,11 +3,59 @@
     {
       "id": 1,
       "name": "Guilherme",
-      "rg": 222222222222,
-      "email": "guilherme4@fatec.sp.gov.br",
-      "telefone": 11987874533,
+      "rg": 66644433321,
+      "email": "guilherme2@fatec.sp.gov.br",
       "data": "2004-06-22",
-      "couse": "Análise e Desenvolvimento de Sistemas"
+      "telefone": 11976543212,
+      "course": "Desenvolvimento de Sistemas"
+    },
+    {
+      "id": 2,
+      "name": "Carlos",
+      "rg": 896786542,
+      "email": "carlos007@fatec.sp.gov.br",
+      "data": "2004-12-09",
+      "telefone": 11922125678,
+      "course": "Design Gráfico"
+    },
+    {
+      "id": 3,
+      "name": "Julia",
+      "rg": 2356789071,
+      "email": "julia06@fatec.sp.gov.br",
+      "data": "2005-04-02",
+      "telefone": 11990098742,
+      "course": "Administração"
+    }
+
+  ],
+  "professores":[
+    {
+      "id": 1,
+      "name": "Renan",
+      "rg": 878776789,
+      "email": "profrenan@fatec.sp.gov.br",
+      "data": "1989-12-14",
+      "telefone": 11912123456,
+      "course": "Desenvolvimento de Sistemas"
+    },
+    {
+      "id": 2,
+      "name": "selma",
+      "rg": 21224367301,
+      "email": "profselma@fatec.sp.gov.br",
+      "data": "1975-08-17",
+      "telefone": 11900098765,
+      "course": "Administração"
+    },
+    {
+      "id": 3,
+      "name": "Mateus",
+      "rg": 2565656565,
+      "email": "profmateus@fatec.sp.gov.br",
+      "data": "1999-07-24",
+      "telefone": 11945567876,
+      "course": "Logistica"
     }
   ]
 }

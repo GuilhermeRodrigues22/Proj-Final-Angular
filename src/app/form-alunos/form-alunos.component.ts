@@ -8,7 +8,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   templateUrl: './form-alunos.component.html',
   styleUrls: ['./form-alunos.component.css'],
 })
-export class FormAlunosComponen implements OnInit {
+export class FormAlunosComponente implements OnInit {
   formGroupAluno: FormGroup;
   submitted: boolean = false;
   isEditing: boolean = false;
@@ -16,7 +16,7 @@ export class FormAlunosComponen implements OnInit {
     'Desenvolvimento de Sistemas',
     'Design Gráfico',
     'Administração',
-    'Logistica',
+    'Logistica'
   ];
 
   constructor(
